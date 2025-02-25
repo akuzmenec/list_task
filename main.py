@@ -5,6 +5,7 @@ def task_3_1():
     print(names[0])
     print(names[-1])
 
+
 def task3_2():
     names = ['jon', 'dania']
     massage= f"hello {names[0]}"
