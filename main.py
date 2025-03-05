@@ -1,10 +1,9 @@
-import random
+import math
 
 def task_3_1():
     names=['jon','dania']
     print(names[0])
     print(names[-1])
-
 
 def task3_2():
     names = ['jon', 'dania']
@@ -44,7 +43,6 @@ def t():
 def t4_3():
     for numbers in range(1,20+1):
         print(numbers)
-
 def t4_4():
     numbers= list(range(1,1000000+1))
     print(sum(numbers),"-sum")
@@ -91,10 +89,35 @@ def t4_13():
     for tuple in tuples:
         print(tuple)
     print('\nmodified:')
-    tuples_1=(9,2,3,)
-    for motuples in tuples_1:
+    tuples=(9,2,3,)
+    for motuples in tuples:
         print(motuples)
 #t4_13()
+
+def t5_1():
+
+    car='bmw'
+    print("Is car=='bmw'? I predict True.")
+    print(car=='bmw')
+
+    print("\nIs car =='bmw'? I predict False.")
+    print(car=='audi')
+
+def i_f5_3():
+    alien_color=['green','yellow','red']
+    if 'green' in alien_color:
+        print('+5')
+    if 'black' in alien_color:
+        print()
+
+def i_f5_4():
+    alien_color = ['green', 'yellow', 'red']
+    if 'green' in alien_color:
+        print('+5')
+    else:
+        print(+10)
+
+
 
 
 
