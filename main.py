@@ -117,6 +117,15 @@ def i_f5_4():
     else:
         print(+10)
 
+def if_5_8():
+    i=['admin']
+    name=['admin','jon','roma']
+    for i in name:
+        if name == 'admin' :
+            print( f"здравствуйте,{name},хотите посмотреть отчет о состоянии дел ?")
+        elif name!='admin':
+            print('привет,спасибо , что авторизовался в системе')
+if_5_8()
 
 
 
