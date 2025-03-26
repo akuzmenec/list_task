@@ -140,7 +140,7 @@ def dict_6_2():
     print('Adam:', name['Adam'])
     print('Jon_1:', name['Jon_1'])
 dict_6_2()
-def dict_6_
+
 
 
 
