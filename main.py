@@ -33,7 +33,7 @@ def task_3_7():
 def task_4_1():
     pizzas="pepperoni","three cheeses","mushroom"
     for pizza in pizzas:
-        pizza_0=[f"{pizzas()}good smell"]
+        pizza_0=[f"{pizzas}good smell"]
         print(pizza_0)
 def t():
     for i in range(100+1):
@@ -118,16 +118,29 @@ def i_f5_4():
         print(+10)
 
 def if_5_8():
-    i=['admin']
-    name=['admin','jon','roma']
+    name=['admin','jon','roma','admin roma','admin jon']
     for i in name:
-        if name == 'admin' :
-            print( f"здравствуйте,{name},хотите посмотреть отчет о состоянии дел ?")
-        elif name!='admin':
+        if name:
+            print( f"здравствуйте,{i},хотите посмотреть отчет о состоянии дел ?")
+        else:
             print('привет,спасибо , что авторизовался в системе')
-if_5_8()
 
+def dict_6_1():
+    person={'first_name': 'Bill','last_name': 'Gates','age': '69','city': 'Medina',}
+    print(person['first_name'])
+    print(person['last_name'])
+    print(person['age'])
+    print(person['city'])
+#dict_6_1()
 
+def dict_6_2():
+    name={'Jon':'5','Dan':'10','Adam':'18','Jon_1':'6',}
+    print('Dan:', name['Dan'])
+    print('Jon:', name['Jon'])
+    print('Adam:', name['Adam'])
+    print('Jon_1:', name['Jon_1'])
+dict_6_2()
+def dict_6_
 
 
 
